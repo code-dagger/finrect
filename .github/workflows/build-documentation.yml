@@ -21,7 +21,7 @@ jobs:
           distribution: 'zulu'
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@16bf8bc8fe830fa669c3c9f914d3eb147c629707 # v4.0.1
-      - uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # v4
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v4
         with:
           node-version: 16
       - name: Congfigure vega-cli
